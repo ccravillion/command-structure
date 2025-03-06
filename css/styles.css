@@ -1,0 +1,249 @@
+@font-face {
+  font-family: "CustomFont";
+  src: url("../fonts/Demonized.ttf") format("opentype"), url("../fonts/Demonized.txt") format("truetype");
+}
+header {
+  background-color: #343434;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 9%;
+}
+header .headerText {
+  color: limegreen;
+  font-family: "CustomFont", sans-serif;
+}
+
+.profile {
+  color: limegreen;
+}
+
+.profileInput {
+  background-color: #343434;
+  border-color: limegreen;
+}
+
+body {
+  background-color: #343434;
+}
+
+.container {
+  background-color: #343434;
+}
+.container.rules {
+  color: limegreen;
+  font-family: "CustomFont", sans-serif;
+}
+
+.tabTitle,
+.form-label {
+  color: limegreen;
+  font-family: "CustomFont", sans-serif;
+}
+
+#mainArea {
+  background-color: #343434;
+  border-color: limegreen;
+  border-width: 5px;
+}
+
+.modal-header, .modal-content, .modal-body, .modal-footer {
+  background-color: #343434;
+  border-color: #343434;
+  font-family: "CustomFont", sans-serif;
+}
+.modal .modal-title {
+  color: limegreen;
+  font-family: "CustomFont", sans-serif;
+}
+.modal-footer {
+  justify-content: flex-start;
+}
+
+.deck-select {
+  color: limegreen;
+}
+
+.card {
+  background-color: #343434;
+  border-color: #343434;
+}
+.card-header, .card-body, .card-footer {
+  background-color: #343434;
+  border-color: #343434;
+}
+.card-title, .card-description {
+  color: limegreen;
+  font-family: "CustomFont", sans-serif;
+}
+.card-description {
+  font-size: 15px;
+}
+
+.commander-set {
+  color: limegreen;
+}
+
+.hidden {
+  display: none;
+}
+
+footer {
+  background-color: #343434;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  text-align: center;
+}
+footer .footerText {
+  color: limegreen;
+  font-family: "CustomFont", sans-serif;
+}
+
+.accordion {
+  color: limegreen;
+  background-color: #343434;
+  border-color: limegreen;
+  font-family: "CustomFont", sans-serif;
+}
+.accordion-button.collapsed {
+  background-color: #343434;
+  color: limegreen;
+}
+.accordion-button:not(.collapsed) {
+  background-color: limegreen;
+  color: #343434;
+}
+.accordion.active {
+  background-color: limegreen;
+  color: #343434;
+}
+.accordion-item {
+  color: limegreen;
+  background-color: #343434;
+  border-color: limegreen;
+}
+
+.deckList {
+  margin: 1px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: inherit;
+  gap: 43px;
+}
+
+#type,
+#color,
+#rarity,
+#setName,
+#power,
+#toughness,
+#cmc,
+#legality {
+  background-color: #343434;
+  border-color: limegreen;
+}
+
+.searchModal {
+  justify-content: flex-end;
+}
+
+.searchContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.searchBtn {
+  border-color: limegreen;
+  color: limegreen;
+  background-color: #343434;
+  margin-bottom: 5px;
+}
+.searchBtn:hover {
+  border-color: limegreen;
+  background-color: limegreen;
+  color: white;
+}
+
+.searchBar {
+  display: inline;
+  width: 45%;
+  background-color: #343434;
+  border-color: limegreen;
+}
+
+input {
+  color: limegreen;
+  font-family: "CustomFont", sans-serif;
+}
+
+.results {
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.resultsPage {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.mtg {
+  width: 146px;
+  height: 204px;
+  display: flex;
+  padding: 10px;
+}
+
+.commanderImg {
+  display: block;
+  width: 22.5%;
+}
+
+#rulesBtn,
+#profileBtn,
+.searchBtn,
+.tabBtn,
+.newDeck,
+#rename,
+#homeBtn {
+  color: limegreen;
+  background-color: #343434;
+  border-color: limegreen;
+  font-family: "CustomFont", sans-serif;
+}
+#rulesBtn:hover,
+#profileBtn:hover,
+.searchBtn:hover,
+.tabBtn:hover,
+.newDeck:hover,
+#rename:hover,
+#homeBtn:hover {
+  color: white;
+  background-color: limegreen;
+}
+
+.btn.active {
+  color: #343434;
+  background-color: limegreen;
+}
+
+#newDeckBtn {
+  margin: 10px;
+  display: flex;
+  justify-content: right;
+}
+
+.deck-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.btn btn-outline profile {
+  background-color: #343434;
+  color: limegreen;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,280 @@
+// Variables
+$background-color: #343434;
+$limegreen: limegreen;
+$font-family: 'CustomFont', sans-serif;
+
+// Fonts
+@font-face {
+  font-family: 'CustomFont';
+  src:
+  url('../fonts/Demonized.ttf') format('opentype'),
+  url('../fonts/Demonized.txt') format('truetype');
+
+
+}
+
+// Main Styles
+header {
+  background-color: $background-color;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 9%;
+
+  .headerText {
+    color: $limegreen;
+    font-family: $font-family;
+  }
+}
+.profile {
+  color: $limegreen;
+}
+
+.profileInput {
+  background-color: $background-color;
+  border-color: $limegreen;
+}
+
+body {
+  background-color: $background-color;
+}
+
+.container {
+  background-color: $background-color;
+
+  &.rules {
+    color: $limegreen;
+    font-family: $font-family;
+  }
+}
+
+.tabTitle,
+.form-label {
+  color: $limegreen;
+  font-family: $font-family;
+}
+
+#mainArea {
+  background-color: $background-color;
+  border-color: $limegreen;
+  border-width: 5px;
+}
+
+.modal {
+  &-header,
+  &-content,
+  &-body,
+  &-footer {
+    background-color: $background-color;
+    border-color: $background-color;
+    font-family: $font-family;
+  }
+
+  .modal-title {
+    color: $limegreen;
+    font-family: $font-family;
+  }
+
+  &-footer {
+    justify-content: flex-start;
+  }
+}
+
+.deck-select {
+  color: $limegreen;
+}
+
+.card {
+  background-color: $background-color;
+  border-color: $background-color;
+
+  &-header,
+  &-body,
+  &-footer {
+    background-color: $background-color;
+    border-color: $background-color;
+  }
+
+  &-title,
+  &-description {
+    color: $limegreen;
+    font-family: $font-family;
+  }
+
+  &-description {
+    font-size: 15px;
+  }
+}
+
+.commander-set {
+  color: $limegreen;
+}
+
+.hidden {
+  display: none;
+}
+
+footer {
+  background-color: $background-color;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  text-align: center;
+
+  .footerText {
+    color: $limegreen;
+    font-family: $font-family;
+  }
+}
+
+// Decks Styles
+.accordion {
+  color: $limegreen;
+  background-color: $background-color;
+  border-color: $limegreen;
+  font-family: $font-family;
+
+  &-button {
+    &.collapsed {
+      background-color: $background-color;
+      color: $limegreen;
+    }
+
+    &:not(.collapsed) {
+      background-color: $limegreen;
+      color: $background-color;
+    }
+  }
+
+  &.active {
+    background-color: $limegreen;
+    color: $background-color;
+  }
+
+  &-item {
+    color: $limegreen;
+    background-color: $background-color;
+    border-color: $limegreen;
+  }
+}
+
+.deckList {
+  margin: 1px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: inherit;
+  gap: 43px;
+}
+
+// Search Styles
+#type,
+#color,
+#rarity,
+#setName,
+#power,
+#toughness,
+#cmc,
+#legality {
+  background-color: $background-color;
+  border-color: $limegreen;
+}
+
+.searchModal {
+  justify-content: flex-end;
+}
+
+.searchContainer {
+  display: flex;
+  justify-content: center; // Centers the search bar horizontally
+  align-items: center; // Centers the search bar vertically if needed
+  width: 100%; // Ensures the container takes full width
+}
+
+.searchBtn {
+  border-color: $limegreen;
+  color: $limegreen;
+  background-color: $background-color;
+  margin-bottom: 5px;
+
+  &:hover {
+    border-color: $limegreen;
+    background-color: $limegreen;
+    color: white;
+  }
+}
+
+.searchBar {
+  display: inline;
+  width: 45%;
+  background-color: $background-color;
+  border-color: $limegreen;
+}
+
+input {
+  color: $limegreen;
+  font-family: $font-family;
+}
+
+.results {
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+// Card Styles
+.resultsPage {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.mtg {
+  width: 146px;
+  height: 204px;
+  display: flex;
+  padding: 10px;
+}
+
+.commanderImg {
+  display: block;
+  width: 22.5%;
+}
+
+// Button Styles
+#rulesBtn,
+#profileBtn,
+.searchBtn,
+.tabBtn,
+.newDeck,
+#rename,
+#homeBtn {
+  color: $limegreen;
+  background-color: $background-color;
+  border-color: $limegreen;
+  font-family: $font-family;
+
+  &:hover {
+    color: white;
+    background-color: $limegreen;
+  }
+}
+
+.btn.active {
+  color: $background-color;
+  background-color: $limegreen;
+}
+
+#newDeckBtn {
+  margin: 10px;
+  display: flex;
+  justify-content: right;
+}
+
+.deck-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.btn btn-outline profile {
+  background-color: $background-color;
+  color: $limegreen;
+}
