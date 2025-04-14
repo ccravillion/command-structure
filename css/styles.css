@@ -2,6 +2,12 @@
   font-family: "CustomFont";
   src: url("../fonts/Demonized.ttf") format("opentype"), url("../fonts/Demonized.txt") format("truetype");
 }
+
+@font-face {
+  font-family: "DescriptionFont";
+  src: url("../fonts/CreatoDisplay-Regular.otf") format("opentype"), url("../fonts/SIL OPEN FONT LICENSE.txt") format("truetype");
+}
+
 header {
   background-color: #343434;
   padding-top: 3%;
