@@ -2,6 +2,7 @@
 $background-color: #343434;
 $limegreen: limegreen;
 $font-family: 'CustomFont', sans-serif;
+$description: 'DescriptionFont';
 
 // Fonts
 @font-face {
@@ -9,8 +10,13 @@ $font-family: 'CustomFont', sans-serif;
   src:
   url('../fonts/Demonized.ttf') format('opentype'),
   url('../fonts/Demonized.txt') format('truetype');
+}
 
-
+@font-face {
+  font-family: 'DescriptionFont', sans-serif;
+  src:
+  url('../fonts/CreatoDisplay-Regular.otf') format('opentype');
+  url('../fonts/SIL OPEN FONT LICENSE.txt') format('opentype');
 }
 
 // Main Styles
@@ -57,6 +63,11 @@ body {
   background-color: $background-color;
   border-color: $limegreen;
   border-width: 5px;
+}
+
+.descriptionText {
+  color: $limegreen;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .modal {
