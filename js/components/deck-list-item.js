@@ -24,15 +24,8 @@ app.component('deckListItem', {
 
     template: `
       <div class="accordion-body">
-        <div class="commanders">
-          <div class="commanderImg" v-for="(commander, i) in deck.commanders" :key="commander.name">
-            <img :src="commander.image" :alt="commander.name" class="mtg" data-bs-toggle="modal" :data-bs-target="'#commanderModal' + deck.id + i">
-          </div>
-        </div><hr>
+        <hr>
         <div class="deckList">
-          <div v-for="(card, i) in deck.cards" :key="card.name">
-            <img :src="card.image" :alt="card.name" class="mtg" data-bs-toggle="modal" :data-bs-target="'#cardModal' + deck.id + i">
-          </div>
         </div>
         <hr>
         <div class="deck-buttons">
