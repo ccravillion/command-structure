@@ -2,7 +2,7 @@
 $background-color: #343434;
 $limegreen: limegreen;
 $font-family: 'CustomFont', sans-serif;
-$description: 'DescriptionFont';
+$description-font: 'DescriptionFont';
 
 // Fonts
 @font-face {
@@ -15,7 +15,8 @@ $description: 'DescriptionFont';
 @font-face {
   font-family: 'DescriptionFont', sans-serif;
   src:
-  url('../fonts/CreatoDisplay-Regular.otf') format('opentype');
+  url('../fonts/CreatoDisplay-Regular.otf') format('opentype'),
+  url('../fonts/SIL OPEN FONT LICENSE.txt') format('truetype');
 }
 
 // Main Styles
@@ -43,7 +44,7 @@ body {
   background-color: $background-color;
 }
 p {
-  font-family: $description;
+  font-family: $description-font;
 }
 
 .container {
@@ -114,6 +115,7 @@ p {
 
   &-description {
     font-size: 15px;
+    font-family: $description-font;
   }
 }
 
@@ -222,7 +224,7 @@ footer {
 
 input {
   color: $limegreen;
-  font-family: $font-family;
+  font-family: $description-font;
 }
 
 .results {
